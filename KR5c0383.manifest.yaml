@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR5c0383/v1
+canonical_location: https://kanripo.org/bkk/KR5c0383/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 萃善錄
+  identifiers:
+    alt_id:
+    - DZ0983
+  date: '2015-08-29 00:59:03.011418'
+  source:
+    repository: kanripo
+    path: KR5c0383
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0383_000.yaml, hash: 'sha256:945a539a7bc0f82d934e5c082f95ffe0c6768473912f3f59352439997ab87399'}
+  - {seq: 1, filename: KR5c0383_001.yaml, hash: 'sha256:9f6acaadf3584cadbfa3451baeaadf3c479aef77402e11a1c88e0fe07a8c4b74'}
+  - {seq: 2, filename: KR5c0383_002.yaml, hash: 'sha256:e42f1d01f275a946b9c53a6e771a123b3bd799e2cc59d7e79a042968bd0be4d6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0383_001.markers.yaml, hash: 'sha256:9d0bcee28c09409719ee7720bc480699abbfee292950bfd5c8fb4ec05fe16397'}
+  - {seq: 2, role: markers, filename: assets/KR5c0383_002.markers.yaml, hash: 'sha256:f37687273eaeb4910992c02da28e9caeaf97aa87e3d07622890c35015dfce4fa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0383_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 7506
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0383_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 6087
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:a1cd692aeb16e44d5af4c915f737ef650fae6c0543618392229ac4cce2dfec04
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

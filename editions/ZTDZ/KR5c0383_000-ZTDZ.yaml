@@ -1,0 +1,23 @@
+canonical_identifier: bkk:krp/KR5c0383/ZTDZ/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 萃善錄
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+  date: '2015-08-29 00:59:03.011418'
+  source:
+    repository: kanripo
+    path: KR5c0383/KR5c0383_000.txt
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+hash: sha256:fd40eab22cdb783965d9f3c9ccadf1fecf73317a8a0a3366d2202b59e98d6ea1
